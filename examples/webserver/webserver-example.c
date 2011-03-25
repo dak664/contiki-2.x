@@ -38,8 +38,9 @@
  *         Adam Dunkels <adam@sics.se>
  */
 
+#include <net/resolv.h>
 #include "webserver-nogui.h"
 
 /*---------------------------------------------------------------------------*/
-AUTOSTART_PROCESSES(&webserver_nogui_process);
+AUTOSTART_PROCESSES(&webserver_nogui_process,&resolv_process);
 /*---------------------------------------------------------------------------*/

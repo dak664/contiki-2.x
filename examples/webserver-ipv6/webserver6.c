@@ -31,8 +31,9 @@
  * $Id: webserver6.c,v 1.1 2008/10/14 10:01:53 julienabeille Exp $
  */
 
+#include <net/resolv.h>
 #include "webserver-nogui.h"
 
 /*---------------------------------------------------------------------------*/
-AUTOSTART_PROCESSES(&webserver_nogui_process);
+AUTOSTART_PROCESSES(&webserver_nogui_process,&resolv_process);
 /*---------------------------------------------------------------------------*/

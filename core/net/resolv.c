@@ -65,6 +65,8 @@
 #include "net/resolv.h"
 #include "net/uip-udp-packet.h"
 
+#define VERBOSE_DEBUG 1
+
 #if UIP_UDP
 
 #include <string.h>

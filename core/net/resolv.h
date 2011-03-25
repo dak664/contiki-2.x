@@ -41,6 +41,7 @@
 #define __RESOLV_H__
 
 #include "contiki.h"
+#include "uip.h"
 
 /**
  * Event that is broadcasted when a DNS name has been resolved.
