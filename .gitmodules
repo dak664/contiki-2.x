@@ -1,0 +1,3 @@
+[submodule "examples/smcp-demo/smcp"]
+	path = examples/smcp-demo/smcp
+	url = ../smcp/
